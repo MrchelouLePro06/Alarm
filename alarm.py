@@ -17,7 +17,7 @@ if time_until_alarm.total_seconds()>10:
 
 while True:
     current_time = datetime.now().time()
-    print(current_time.second)
+    #print(current_time.second)
     if current_time.hour == alarme.hour and current_time.minute == alarme.minute:
         playsound(r'C:\Users\User\Desktop\unice\info\M1\entrainement\python\alarme\tropical-alarm-clock-168821.mp3')
         break
